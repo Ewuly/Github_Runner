@@ -2,7 +2,6 @@ FROM ubuntu:latest
 
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install -y curl python3
-RUN apt-get install -y libxml2=2.11.4 libxslt1.1=1.1.38
 
 RUN mkdir /runner && cd /runner
 WORKDIR /runner
