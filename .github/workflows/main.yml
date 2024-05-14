@@ -1,11 +1,11 @@
-name: Deploy_Front_And_Back
+name: Try to use self-hosted runner
 
 on:
   push:
 
 
 jobs:
-  back-test:
+  test:
     runs-on: self-hosted
     permissions:
       issues: write
