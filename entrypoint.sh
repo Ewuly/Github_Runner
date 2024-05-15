@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configure the GitHub runner
-RUNNER_ALLOW_RUNASROOT="1" ./config.sh --url https://github.com/Ewuly/Run_by_myself --token ARMCSWLHYELKWXKVMCNCA5DGINX3G
+RUNNER_ALLOW_RUNASROOT="1" ./config.sh --url https://github.com/Ewuly/Run_by_myself --token ARMCSWNQQGAB4FPQYERCKPLGIRWUY
 
 # Start the GitHub runner in the background
 RUNNER_ALLOW_RUNASROOT="1" ./run.sh &
