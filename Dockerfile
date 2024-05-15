@@ -12,6 +12,7 @@ RUN echo "d62de2400eeeacd195db91e2ff011bfb646cd5d85545e81d8f78c436183e09a8  acti
 RUN tar xzf ./actions-runner-linux-x64-2.316.1.tar.gz
 RUN ./bin/installdependencies.sh
 RUN apt-get install -y libicu-dev
+RUN apt-get install -y git
 
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
